@@ -1,4 +1,8 @@
 # Loading previous buffer contents. Please wait...
+sample "C:/Users/zoraiz_hashmi/Documents/myproducertag.wav", amp: 5
+
+sleep 4.7
+
 live_loop :loop1 do
   play:Eb
   sleep 0.5
@@ -23,6 +27,6 @@ end
 sleep 10.4
 
 live_loop :bass do
-  sample "C:/Users/zoraiz_hashmi/Documents/kidcudibass.wav", amp: 5
-  sleep 5.2
+  sample "C:/Users/zoraiz_hashmi/Documents/kidcudibass.wav", amp: 2.5
+  sleep 5.19
 end
